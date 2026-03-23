@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompt Library — What Can I Actually Do With AI?</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="mobile-header">
+    <span class="mobile-header-title">AI Guide</span>
+    <button class="menu-btn" onclick="toggleMenu()">&#9776;</button>
+</div>
+<div class="sidebar-overlay" onclick="toggleMenu()"></div>
+
+<div class="site-wrapper">
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <a href="../index.html">
+                <div class="sidebar-title">What Can I Actually Do With AI?</div>
+                <div class="sidebar-subtitle">By Kenneth Langdon</div>
+            </a>
+        </div>
+        <div class="sidebar-nav">
+            <a href="../index.html" class="nav-link ">Home</a>
+<div class="nav-section-title">Getting Started</div>
+<a href="../getting-started/what-ai-is.html" class="nav-link ">What AI Actually Is</a>
+<a href="../getting-started/what-ai-cannot-do.html" class="nav-link ">What AI Cannot Do</a>
+<a href="../getting-started/prompting.html" class="nav-link ">How to Talk to AI</a>
+<a href="../getting-started/privacy.html" class="nav-link ">Privacy and Security</a>
+<a href="../getting-started/pricing.html" class="nav-link ">Pricing Guide</a>
+<a href="../getting-started/where-to-use.html" class="nav-link ">Where to Use Each Tool</a>
+<a href="../getting-started/starter-toolkit.html" class="nav-link ">Your Starter Toolkit</a>
+<a href="../getting-started/not-convinced-yet.html" class="nav-link ">Not Convinced Yet?</a>
+<div class="nav-section-title">What You Can Do</div>
+<a href="../what-you-can-do/writing.html" class="nav-link ">Writing and Brainstorming</a>
+<a href="../what-you-can-do/research.html" class="nav-link ">Research</a>
+<a href="../what-you-can-do/documents.html" class="nav-link ">Chat With Documents</a>
+<a href="../what-you-can-do/images.html" class="nav-link ">Image Generation</a>
+<a href="../what-you-can-do/presentations.html" class="nav-link ">Presentations</a>
+<a href="../what-you-can-do/music.html" class="nav-link ">Music</a>
+<a href="../what-you-can-do/video-generation.html" class="nav-link ">Video Generation</a>
+<a href="../what-you-can-do/video-editing.html" class="nav-link ">Video Editing</a>
+<a href="../what-you-can-do/voice.html" class="nav-link ">Voice and Speech</a>
+<a href="../what-you-can-do/build-apps.html" class="nav-link ">Build Websites and Apps</a>
+<a href="../what-you-can-do/agents.html" class="nav-link ">AI Agents</a>
+<a href="../what-you-can-do/transcription.html" class="nav-link ">Transcription</a>
+<a href="../what-you-can-do/everyday-life/index.html" class="nav-link ">Everyday Life</a>
+<a href="../what-you-can-do/language-learning.html" class="nav-link ">Language Learning</a>
+<a href="../what-you-can-do/build-meal-planner.html" class="nav-link ">Build a Meal Planner</a>
+<a href="../what-you-can-do/job-search.html" class="nav-link ">Job Search</a>
+<a href="../what-you-can-do/semi-retired.html" class="nav-link ">Semi-Retired Professionals</a>
+<a href="../what-you-can-do/camera.html" class="nav-link ">Using Your Camera</a>
+<a href="../what-you-can-do/copilot.html" class="nav-link ">Microsoft Copilot</a>
+<a href="../what-you-can-do/ai-browsers.html" class="nav-link ">AI Browsers</a>
+<div class="nav-section-title">Everyday Life</div>
+<a href="../what-you-can-do/everyday-life/home-admin.html" class="nav-link ">Home Admin</a>
+<a href="../what-you-can-do/everyday-life/family.html" class="nav-link ">Family and Relationships</a>
+<a href="../what-you-can-do/everyday-life/health.html" class="nav-link ">Health and Wellbeing</a>
+<a href="../what-you-can-do/everyday-life/hobbies.html" class="nav-link ">Hobbies and Interests</a>
+<a href="../what-you-can-do/everyday-life/community-groups.html" class="nav-link ">Community Groups</a>
+<a href="../what-you-can-do/everyday-life/education.html" class="nav-link ">Education and Learning</a>
+<a href="../what-you-can-do/everyday-life/helping-older-relatives.html" class="nav-link ">Helping Older Relatives</a>
+<a href="../what-you-can-do/everyday-life/financial-decisions.html" class="nav-link ">Financial Decisions</a>
+<a href="../what-you-can-do/everyday-life/event-planning.html" class="nav-link ">Event Planning</a>
+<div class="nav-section-title">Choosing and Comparing</div>
+<a href="../choosing-and-comparing/workflow.html" class="nav-link ">Real Workflow Example</a>
+<a href="../choosing-and-comparing/claude-vs-chatgpt-vs-gemini.html" class="nav-link ">Claude vs ChatGPT vs Gemini</a>
+<a href="../choosing-and-comparing/cheat-sheet.html" class="nav-link ">Cheat Sheet</a>
+<div class="nav-section-title">Staying Safe</div>
+<a href="../staying-safe/reminders.html" class="nav-link ">Important Reminders</a>
+<a href="../staying-safe/scams-and-fakes.html" class="nav-link ">AI Scams and Deepfakes</a>
+<a href="../staying-safe/ai-and-creativity.html" class="nav-link ">AI and Creativity</a>
+<div class="nav-section-title">The Frontier</div>
+<a href="../the-frontier/openclaw.html" class="nav-link ">OpenClaw</a>
+<a href="../the-frontier/running-locally.html" class="nav-link ">Running AI Locally</a>
+<div class="nav-section-title">Reference</div>
+<a href="../reference/price-list.html" class="nav-link ">Price List</a>
+<a href="../reference/prompt-library.html" class="nav-link active">Prompt Library</a>
+
+        </div>
+    </nav>
+
+    <main class="content-area">
+        <div class="content">
+            <h1 id="prompt-library">Prompt Library</h1>
+<p>These prompts are ready to copy and paste into Claude or ChatGPT. Replace the bracketed sections with your own details. Each one includes a brief note on what to expect and what to watch for.</p>
+<h2 id="household-admin">Household Admin</h2>
+<p><strong>1. Explain an official letter or notice</strong></p>
+<div class="prompt">"I have uploaded [a body corporate letter / a council notice / an insurance renewal / a utility contract]. Summarise it in plain English. Tell me: (1) what the main point is, (2) what it will cost me, (3) what I need to do and by when, and (4) anything unusual or concerning."</div>
+<p><strong>Expect:</strong> A clear, jargon-free summary. Works with uploaded PDFs, photos of paper documents, or pasted text. <strong>Watch for:</strong> AI occasionally misreads dollar amounts or dates from photographed documents. Double-check any numbers it quotes.</p>
+<p><strong>2. Prepare for a phone call</strong></p>
+<div class="prompt">"I need to call [company/organisation] about [issue]. Here is the situation: [describe what happened, what you want, and what they have said so far]. Help me prepare: the key points I should make, the specific questions to ask, what to say if they refuse, and who to escalate to."</div>
+<p><strong>Expect:</strong> A structured set of talking points you can keep on screen during the call. <strong>Watch for:</strong> AI will sometimes suggest asking for a specific ombudsman or regulator. Verify the name is correct before citing it on the phone.</p>
+<p><strong>3. Understand a contract or agreement</strong></p>
+<div class="prompt">"I have uploaded [a rental lease / a phone contract / a gym membership agreement]. Highlight any clauses that are unusual, one-sided, or that I should negotiate before signing. Tell me the notice period for cancellation and any automatic renewal terms."</div>
+<p><strong>Expect:</strong> A plain-English breakdown of the terms that matter, especially exit clauses and hidden costs. <strong>Watch for:</strong> Privacy. If the contract contains personal information, use a paid tier.</p>
+<h2 id="family-and-relationships">Family and Relationships</h2>
+<p><strong>4. Draft a sensitive message</strong></p>
+<div class="prompt">"I need to write a [text message / email] to [relationship, e.g. my elderly father / my adult daughter / my partner]. The situation is: [describe what you need to say and why it is difficult]. Tone should be [loving but firm / gentle / direct but not aggressive]. Keep it under [150 / 200 / 300] words. Do not use phrases like [list anything that sounds wrong for this relationship]. Make it sound like me, not like a counsellor."</div>
+<p><strong>Expect:</strong> A draft that gets the structure and tone right. You will want to adjust specific phrases to sound more like you. <strong>Watch for:</strong> AI tends toward the diplomatic. If you need to be firmer than the draft, say so and iterate.</p>
+<p><strong>5. Prepare for a difficult family conversation</strong></p>
+<div class="prompt">"I need to have a conversation with [who] about [topic, e.g. care arrangements for a parent / money / boundaries]. Here is the situation: [describe the dynamics, the history, and what you want to achieve]. Help me prepare: (1) how to open without putting anyone on the defensive, (2) the key points to cover, (3) how to handle the most likely pushback, and (4) how to end with a clear next step."</div>
+<p><strong>Expect:</strong> A structured preparation that mirrors the workplace difficult conversation example but for personal relationships. <strong>Watch for:</strong> AI does not know your family. Add the specific details and emotional nuances that only you understand.</p>
+<p><strong>6. Help with homework (without doing it)</strong></p>
+<div class="prompt">"My [child/grandchild, age] is struggling with [subject and specific topic]. I do not want you to give me the answer. Instead, explain the concept in a way that would make sense to a [age]-year-old, give me a real-world analogy, and suggest three questions I can ask them that will guide them toward the answer."</div>
+<p><strong>Expect:</strong> An age-appropriate explanation and a set of leading questions. <strong>Watch for:</strong> Nothing specific. This is one of the safest and most rewarding uses of AI.</p>
+<h2 id="money-and-budgeting">Money and Budgeting</h2>
+<p><strong>7. Analyse spending patterns</strong></p>
+<div class="prompt">"I have uploaded [three months of bank statements as CSV / a spreadsheet of my expenses]. Categorise my spending into: housing, groceries, transport, eating out, subscriptions, utilities, health, and other. Show me monthly totals for each category. Flag anything that has increased by more than 15% over the period. Suggest two specific areas where I could realistically cut back."</div>
+<p><strong>Expect:</strong> A categorised breakdown with trends highlighted. <strong>Watch for:</strong> Privacy. Anonymise account numbers before uploading. Use a paid tier.</p>
+<p><strong>8. Compare a financial product</strong></p>
+<div class="prompt">"I am comparing [two health insurance policies / home insurance quotes / energy plans]. Here are the details of each: [paste the key terms, or upload the documents]. Compare them side by side. Tell me which one is better value for someone in my situation: [describe your situation]. Highlight any differences in excess, exclusions, or conditions that might catch me out."</div>
+<p><strong>Expect:</strong> A structured comparison that highlights the differences that matter for your situation. <strong>Watch for:</strong> AI is not a financial adviser. Use this as a starting point, not a final decision.</p>
+<h2 id="travel-and-leisure">Travel and Leisure</h2>
+<p><strong>9. Plan a day out with real constraints</strong></p>
+<div class="prompt">"Plan a [Saturday / day trip / weekend away] for [who is going]. We are based in [location]. Constraints: budget of $[amount], one of us is [dietary requirement], we want to be back by [time], and we prefer [walking / driving / public transport]. Include specific places with names, a rough timeline, and lunch recommendations."</div>
+<p><strong>Expect:</strong> A specific, actionable itinerary with real places. <strong>Watch for:</strong> AI sometimes suggests places that have closed or changed hours. Verify opening times for anything critical.</p>
+<p><strong>10. Research a destination</strong></p>
+<div class="prompt">"We are planning a [length] trip to [destination] in [month]. [Number] of us travelling. We like [interests] and dislike [dislikes]. Budget is [level]. Give me a day-by-day itinerary with specific accommodation suggestions, transport between locations, and restaurant recommendations. Flag anything we should book in advance."</div>
+<p><strong>Expect:</strong> A detailed itinerary. For well-known destinations, the recommendations will be solid. <strong>Watch for:</strong> Prices quoted by AI may be outdated. Always confirm accommodation and transport costs directly.</p>
+<h2 id="health-and-ageing">Health and Ageing</h2>
+<p><strong>11. Prepare for a medical appointment</strong></p>
+<div class="prompt">"I have a [GP / specialist] appointment about [reason]. Here are my symptoms: [describe them — when they started, what makes them better or worse, severity, any other relevant details]. Help me prepare: (1) a structured summary of my symptoms that covers everything the doctor would want to know, (2) three specific questions I should ask, and (3) anything I should bring or do before the appointment."</div>
+<p><strong>Expect:</strong> A well-organised summary you can take to the appointment, plus questions you might not have thought to ask. <strong>Watch for:</strong> AI is not diagnosing you. Follow your doctor's advice, not the AI's.</p>
+<p><strong>12. Understand medication or test results</strong></p>
+<div class="prompt">"My doctor has prescribed [medication name and dose] for [condition]. Explain in plain English: what it does, common side effects, anything to avoid while taking it, and how long it typically takes to work. Also, I got blood test results showing [specific values]. Are these within normal range? What questions should I ask my doctor about them?"</div>
+<p><strong>Expect:</strong> A clear explanation. Generally accurate for well-known medications and standard pathology. <strong>Watch for:</strong> Always follow your doctor's specific instructions. If the AI contradicts your GP, ask your GP.</p>
+<h2 id="learning-and-hobbies">Learning and Hobbies</h2>
+<p><strong>13. Get better at something specific</strong></p>
+<div class="prompt">"I am trying to improve my [photography / cooking / gardening / guitar playing / writing / woodworking]. My current level is [beginner / intermediate / experienced but rusty]. The specific thing I am struggling with is [describe it]. Give me a focused practice plan for the next two weeks: what to work on each session, how long each session should be, and one exercise per session. Do not overwhelm me — I can commit to [amount of time] per day."</div>
+<p><strong>Expect:</strong> A structured, realistic practice plan tailored to your level and available time. <strong>Watch for:</strong> Nothing specific. This works well across almost any skill.</p>
+<p><strong>14. Plan a home project</strong></p>
+<div class="prompt">"I want to [describe the project, e.g. set up a vegetable garden / repaint my living room / organise my garage / build a bookshelf]. The space is [dimensions or upload a photo]. My budget is $[amount] at [Bunnings / local hardware]. I am [skill level] at this kind of work. Give me: a materials list with estimated costs, step-by-step instructions, a realistic time estimate, and any tools I will need. Tell me if any part of this should be done by a professional."</div>
+<p><strong>Expect:</strong> A practical plan with specific materials, costs, and steps. <strong>Watch for:</strong> Material prices will be approximate. Check current Bunnings prices before buying.</p>
+<p><strong>15. Research family history</strong></p>
+<div class="prompt">"I am researching my family history. I have the following information: [list what you know — names, dates, places, relationships]. Help me: (1) organise this into a structured family tree format, (2) identify the gaps where I am missing information, (3) suggest specific records I should search for (birth/death/marriage certificates, immigration records, census data) and where to find them in Australia, and (4) prepare interview questions for [relative] who remembers [era/events]."</div>
+<p><strong>Expect:</strong> A structured summary of what you know, clear gaps to fill, and specific research leads. <strong>Watch for:</strong> AI cannot search genealogy databases for you. It can tell you which databases to search and what to look for.</p>
+<hr>
+            <div class="page-nav"><a href="../reference/price-list.html" class="prev">Price List</a><span></span></div>
+        </div>
+    </main>
+</div>
+
+<script>
+function toggleMenu() {
+    document.querySelector('.sidebar').classList.toggle('open');
+    document.querySelector('.sidebar-overlay').classList.toggle('open');
+}
+</script>
+</body>
+</html>

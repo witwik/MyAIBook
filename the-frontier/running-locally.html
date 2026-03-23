@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Running AI Locally — What Can I Actually Do With AI?</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="mobile-header">
+    <span class="mobile-header-title">AI Guide</span>
+    <button class="menu-btn" onclick="toggleMenu()">&#9776;</button>
+</div>
+<div class="sidebar-overlay" onclick="toggleMenu()"></div>
+
+<div class="site-wrapper">
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <a href="../index.html">
+                <div class="sidebar-title">What Can I Actually Do With AI?</div>
+                <div class="sidebar-subtitle">By Kenneth Langdon</div>
+            </a>
+        </div>
+        <div class="sidebar-nav">
+            <a href="../index.html" class="nav-link ">Home</a>
+<div class="nav-section-title">Getting Started</div>
+<a href="../getting-started/what-ai-is.html" class="nav-link ">What AI Actually Is</a>
+<a href="../getting-started/what-ai-cannot-do.html" class="nav-link ">What AI Cannot Do</a>
+<a href="../getting-started/prompting.html" class="nav-link ">How to Talk to AI</a>
+<a href="../getting-started/privacy.html" class="nav-link ">Privacy and Security</a>
+<a href="../getting-started/pricing.html" class="nav-link ">Pricing Guide</a>
+<a href="../getting-started/where-to-use.html" class="nav-link ">Where to Use Each Tool</a>
+<a href="../getting-started/starter-toolkit.html" class="nav-link ">Your Starter Toolkit</a>
+<a href="../getting-started/not-convinced-yet.html" class="nav-link ">Not Convinced Yet?</a>
+<div class="nav-section-title">What You Can Do</div>
+<a href="../what-you-can-do/writing.html" class="nav-link ">Writing and Brainstorming</a>
+<a href="../what-you-can-do/research.html" class="nav-link ">Research</a>
+<a href="../what-you-can-do/documents.html" class="nav-link ">Chat With Documents</a>
+<a href="../what-you-can-do/images.html" class="nav-link ">Image Generation</a>
+<a href="../what-you-can-do/presentations.html" class="nav-link ">Presentations</a>
+<a href="../what-you-can-do/music.html" class="nav-link ">Music</a>
+<a href="../what-you-can-do/video-generation.html" class="nav-link ">Video Generation</a>
+<a href="../what-you-can-do/video-editing.html" class="nav-link ">Video Editing</a>
+<a href="../what-you-can-do/voice.html" class="nav-link ">Voice and Speech</a>
+<a href="../what-you-can-do/build-apps.html" class="nav-link ">Build Websites and Apps</a>
+<a href="../what-you-can-do/agents.html" class="nav-link ">AI Agents</a>
+<a href="../what-you-can-do/transcription.html" class="nav-link ">Transcription</a>
+<a href="../what-you-can-do/everyday-life/index.html" class="nav-link ">Everyday Life</a>
+<a href="../what-you-can-do/language-learning.html" class="nav-link ">Language Learning</a>
+<a href="../what-you-can-do/build-meal-planner.html" class="nav-link ">Build a Meal Planner</a>
+<a href="../what-you-can-do/job-search.html" class="nav-link ">Job Search</a>
+<a href="../what-you-can-do/semi-retired.html" class="nav-link ">Semi-Retired Professionals</a>
+<a href="../what-you-can-do/camera.html" class="nav-link ">Using Your Camera</a>
+<a href="../what-you-can-do/copilot.html" class="nav-link ">Microsoft Copilot</a>
+<a href="../what-you-can-do/ai-browsers.html" class="nav-link ">AI Browsers</a>
+<div class="nav-section-title">Everyday Life</div>
+<a href="../what-you-can-do/everyday-life/home-admin.html" class="nav-link ">Home Admin</a>
+<a href="../what-you-can-do/everyday-life/family.html" class="nav-link ">Family and Relationships</a>
+<a href="../what-you-can-do/everyday-life/health.html" class="nav-link ">Health and Wellbeing</a>
+<a href="../what-you-can-do/everyday-life/hobbies.html" class="nav-link ">Hobbies and Interests</a>
+<a href="../what-you-can-do/everyday-life/community-groups.html" class="nav-link ">Community Groups</a>
+<a href="../what-you-can-do/everyday-life/education.html" class="nav-link ">Education and Learning</a>
+<a href="../what-you-can-do/everyday-life/helping-older-relatives.html" class="nav-link ">Helping Older Relatives</a>
+<a href="../what-you-can-do/everyday-life/financial-decisions.html" class="nav-link ">Financial Decisions</a>
+<a href="../what-you-can-do/everyday-life/event-planning.html" class="nav-link ">Event Planning</a>
+<div class="nav-section-title">Choosing and Comparing</div>
+<a href="../choosing-and-comparing/workflow.html" class="nav-link ">Real Workflow Example</a>
+<a href="../choosing-and-comparing/claude-vs-chatgpt-vs-gemini.html" class="nav-link ">Claude vs ChatGPT vs Gemini</a>
+<a href="../choosing-and-comparing/cheat-sheet.html" class="nav-link ">Cheat Sheet</a>
+<div class="nav-section-title">Staying Safe</div>
+<a href="../staying-safe/reminders.html" class="nav-link ">Important Reminders</a>
+<a href="../staying-safe/scams-and-fakes.html" class="nav-link ">AI Scams and Deepfakes</a>
+<a href="../staying-safe/ai-and-creativity.html" class="nav-link ">AI and Creativity</a>
+<div class="nav-section-title">The Frontier</div>
+<a href="../the-frontier/openclaw.html" class="nav-link ">OpenClaw</a>
+<a href="../the-frontier/running-locally.html" class="nav-link active">Running AI Locally</a>
+<div class="nav-section-title">Reference</div>
+<a href="../reference/price-list.html" class="nav-link ">Price List</a>
+<a href="../reference/prompt-library.html" class="nav-link ">Prompt Library</a>
+
+        </div>
+    </nav>
+
+    <main class="content-area">
+        <div class="content">
+            <h1 id="running-ai-locally-your-own-private-ai">Running AI Locally: Your Own Private AI</h1>
+<p>Every AI tool in this guide sends your input to someone else’s servers. What if you could run the AI on your own computer, completely privately, with no subscription fees and no data leaving your machine?</p>
+<p>You can. And in 2026, it has become surprisingly practical.</p>
+<p><strong>How It Works</strong></p>
+<p>Companies like Meta (Llama), Mistral, Alibaba (Qwen), and DeepSeek release open-source AI models that anyone can download and run. Tools like <strong>Ollama</strong> and <strong>LM Studio</strong> make running these models almost as simple as installing a regular app. Ollama is command-line based (one command to install, one command to run a model). LM Studio has a visual interface with a built-in model browser. Both are free.</p>
+<p>The models you can run locally are not as powerful as Claude Opus 4.6 or GPT-5.4. But the best open-source models (particularly in the 7-14 billion parameter range) now approach the quality of commercial models from 12-18 months ago. For many tasks, summarisation, drafting, code help, document analysis, translation, they are genuinely useful.</p>
+<p><strong>Do You Need a Super Computer?</strong></p>
+<p>Not quite, but you do need a reasonably capable machine. Here is the honest picture:</p>
+<p><strong>A modern MacBook with 16GB RAM</strong> can run smaller models (7-8 billion parameters) at a usable speed. Apple Silicon Macs (M1, M2, M3, M4) are particularly good at this because their unified memory architecture lets the AI use all your RAM efficiently. If you have a MacBook Pro with 32GB or more, you can run quite capable models comfortably.</p>
+<p><strong>A gaming PC with a modern Nvidia GPU</strong> (RTX 3090, 4070 Ti, 4090) with 16-24GB of video memory is the fastest option for local AI. These machines can run larger models at impressive speeds.</p>
+<p><strong>A regular office laptop with 8GB RAM</strong> will struggle. Smaller models will technically run, but slowly (a few words per second). Not practical for real work.</p>
+<p><strong>The sweet spots:</strong> A MacBook Pro M3/M4 with 32GB+ RAM, or a PC with an RTX 4070 Ti or better. These will run 7-14 billion parameter models smoothly and handle most practical local AI tasks.</p>
+<p><strong>Why Would You Bother?</strong></p>
+<p><strong>Total privacy.</strong> Your data never leaves your computer. No server logs. No training data concerns. No terms of service to worry about. For sensitive documents, confidential business data, or regulated industries, this is the ultimate privacy solution.</p>
+<p><strong>No subscription costs.</strong> Once you have the hardware, running local models is free. No per-message limits. No monthly fees. Use it as much as you want.</p>
+<p><strong>Offline access.</strong> Works without an internet connection. Useful for travel, remote locations, or air-gapped environments.</p>
+<p><strong>Why You Might Not Bother</strong></p>
+<p><strong>Quality gap.</strong> Local models are good but not yet as good as Claude or ChatGPT for complex reasoning, creative writing, or nuanced analysis. The gap is closing, but it exists.</p>
+<p><strong>Setup required.</strong> Even with tools like Ollama and LM Studio simplifying things, there is more technical setup involved than signing up for a web-based tool.</p>
+<p><strong>Speed.</strong> Local models are typically slower than cloud-based models, especially on modest hardware. Cloud services run on massive server farms. Your laptop is one machine.</p>
+<p><strong>No web search, no integrations.</strong> Cloud tools like Claude and ChatGPT can search the web, connect to your apps, and use tools. Local models are typically text-in, text-out with limited external capabilities (though this is changing with tools like OpenClaw).</p>
+<p><strong>Ken’s Take</strong></p>
+<p>If you are reading this guide for the first time, running AI locally is not where you should start. Start with the cloud-based tools. Learn what AI can do. Develop your prompting skills. Then, if privacy becomes a priority or you want to tinker, explore local models as a supplement to your existing toolkit.</p>
+<p>But know that this capability exists. The fact that you can run a capable AI assistant on your laptop, completely privately, for free, is one of the most significant developments in technology right now. It is only going to get more accessible.</p>
+<p>Try Ollama: <a href="https://ollama.com">ollama.com</a></p>
+<p>Try LM Studio: <a href="https://lmstudio.ai">lmstudio.ai</a></p>
+            <div class="page-nav"><a href="../the-frontier/openclaw.html" class="prev">OpenClaw</a><span></span><a href="../reference/price-list.html" class="next">Price List</a></div>
+        </div>
+    </main>
+</div>
+
+<script>
+function toggleMenu() {
+    document.querySelector('.sidebar').classList.toggle('open');
+    document.querySelector('.sidebar-overlay').classList.toggle('open');
+}
+</script>
+</body>
+</html>
